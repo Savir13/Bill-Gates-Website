@@ -1,0 +1,134 @@
+#banner {
+    background-image: url(bill-gates.jpg);
+    height: 600px;
+    background-position: center;
+    background-size: contain;
+}
+
+h1,
+h2 {
+    color: white;
+}
+
+#name {
+    color: darkseagreen;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#banner-inner {
+    padding: 15%;
+    padding-left: 10%;
+    padding-right: 60%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 300;
+    text-transform: uppercase;
+
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 300;
+    font-variant: small-caps;
+    color: lightskyblue;
+}
+
+h3 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    color: darkseagreen;
+}
+
+#bio,#work {
+    padding: 10%;
+}
+
+p {
+    text-align: justify;
+}
+
+#bio_text {
+    display: flex;
+}
+
+#bio_text #img {
+    width: 100%;
+}
+
+#bio_text img {
+    width: 100%;
+}
+
+#bio_text p {
+    padding-left: 50px;
+    margin: 0px;
+    font-size: 17px;
+    line-height: 1.5;
+    color: #bfb5b2;
+}
+
+#videos{
+    padding: 10%;
+    background: darkseagreen;
+}
+
+#videos h3{
+    color: black;
+}
+
+.picture_frame{
+    padding: 30px;
+    width: 1000px;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    margin:auto;
+}
+
+#menu{   
+    list-style: none; 
+    text-align: center;  
+    position: fixed;
+    background-color: white;
+    margin: 0px;
+    right:0;
+    left:0;
+    top:0;
+    box-shadow: 0px 0px 10px grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#menu li{
+    display: inline;
+    padding-left:15px;
+    padding-right:15px;
+    font-size: 20px; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(220,178,107);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: mediumpurple;
+}
+
+#menu li:hover{
+    color: white;
+    border-bottom: 5px solid rgba(247,220,180,1);
+}
+
+html{
+    scroll-behavior: smooth;
+}
